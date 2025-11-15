@@ -1,0 +1,288 @@
+body {
+  background-image: url(img/leo_visions-jgNBV1jsAS0-unsplash.jpg);
+  margin: 0;
+  padding: 0;
+}
+.box {
+  background-image: url(img/galina-nelyubova-GPNkHWKYNOM-unsplash.jpg);
+  columns: white;
+  border-radius: 10px;
+  font-family: system-ui;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 0.2);
+  padding: 20px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+}
+.container {
+  background-image: url(img/pawel-czerwinski-dssKoTBnWiM-unsplash.jpg);
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-left: 30px solid #555;
+  border-right: 30px solid #555;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 35% 60%;
+}
+.avatar img {
+  width: 200px;
+  height: 300px;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+.name h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.name .job {
+  text-align: center;
+}
+.name {
+  padding-left: 30px;
+  border-left: 3px solid black;
+}
+.name .contact {
+  padding: 0;
+  list-style: none;
+}
+.name .contact span {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: small;
+  margin-right: 20px;
+}
+.name .contact li {
+  padding: 5px 0;
+  transform: translate(-40px);
+}
+.info h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.info li {
+  font: optional;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  margin-left: 35px;
+}
+.intro {
+  padding-left: 30px;
+  border-left: 3px solid black;
+}
+.intro h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.skill {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+}
+.skill h1 {
+  text-align: center;
+}
+.skill li {
+  margin-left: 35px;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font: optional;
+}
+.learn {
+  padding-left: 30px;
+  border-left: 3px solid black;
+}
+.learn h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.learn ul {
+  list-style: none;
+}
+.learn .edu-list {
+  font-size: large;
+  font: optional;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.edu-list li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  font: optional;
+  position: relative;
+}
+.edu-list li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateX(-6px);
+}
+.hobby h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.hobby li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 35px;
+  font-size: large;
+}
+.future {
+  border-left: 3px solid black;
+  padding-left: 30px;
+}
+.future h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.future h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.soft-skill h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.soft-skill li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  margin-left: 35px;
+}
+.project {
+  border-left: 3px solid black;
+  padding-left: 30px;
+}
+.project h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.about h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.about ul {
+  list-style: none;
+  font-size: large;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.about ul li {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.about ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tech h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tech ul {
+  list-style: none;
+  font-size: large;
+  font: optional;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.tech ul li {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.tech ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.optional h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.optional ul {
+  list-style: none;
+  font-size: large;
+  font: optional;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.optional ul li {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.optional ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.result h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.result ul {
+  list-style: none;
+  font-size: large;
+  font: optional;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.result ul li {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.result ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+}
