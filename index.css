@@ -25,7 +25,7 @@ body {
   border-right: 30px solid #555;
   margin-top: 200px;
   display: grid;
-  grid-template-columns: 35% 60%;
+  grid-template-columns: 40% 60%;
 }
 .avatar img {
   width: 200px;
