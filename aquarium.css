@@ -1,0 +1,196 @@
+body {
+  background-image: url(img/pawel-czerwinski-dssKoTBnWiM-unsplash.jpg);
+}
+.box {
+  background-image: url(img/galina-nelyubova-GPNkHWKYNOM-unsplash.jpg);
+  columns: white;
+  border-radius: 10px;
+  font-family: system-ui;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 0.2);
+  padding: 20px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.container {
+  background-image: url(ảnhhồcá/53159045-underwater-phim-hoạt-hình-thế-giới---phong-cảnh-biển-xanh-sao-biển-vector-minh-họa.jpg);
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin: auto;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.dive1 {
+  width: 60px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translateY(-50%) translateX(0) scale(1);
+  will-change: transform;
+  animation: swimdive1 10s linear infinite;
+}
+@keyframes swimdive1 {
+  0% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+  45% {
+    transform: translateY(-50%) translateX(200px) scaleX(1);
+  }
+  50% {
+    transform: translateY(-50%) translateX(200px) scaleX(-1);
+  }
+  95% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+}
+.dive2 {
+  width: 60px;
+  position: absolute;
+  top: 60%;
+  right: 0;
+  animation: intro 0.25s linear 1 forwards, swimdive2 6s linear 0.25s infinite;
+}
+@keyframes intro {
+  from {
+    transform: translateY(-50%) scaleX(1);
+  }
+  to {
+    transform: translateY(-50%) scaleX(-1);
+  }
+}
+@keyframes swimdive2 {
+  0% {
+    transform: translateY(-50%) translateX(0) scaleX(-1); /* nhìn trái */
+  }
+
+  10% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+
+  50% {
+    transform: translateY(-50%) translateX(-200px) scaleX(-1);
+  }
+
+  60% {
+    transform: translateY(-50%) translateX(-200px) scaleX(1);
+  }
+
+  99% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+
+  100% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+}
+
+.dive3 {
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  animation: swimdive3 7s linear alternate infinite;
+}
+@keyframes swimdive3 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.fc {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+}
+.goldfish {
+  width: 50px;
+  position: absolute;
+  top: 35%;
+  right: 0;
+  transform: translateY(-50%) scaleX(1);
+  will-change: transform;
+  animation: goldIntro 0.25s linear 1 forwards,
+    goldSwim 5s linear 0.25s infinite;
+}
+@keyframes goldIntro {
+  from {
+    transform: translateY(-50%) scaleX(1);
+  }
+  to {
+    transform: translateY(-50%) scaleX(-1);
+  }
+}
+@keyframes goldSwim {
+  0% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+  10% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+  50% {
+    transform: translateY(-50%) translateX(-150px) scaleX(-1);
+  }
+  60% {
+    transform: translateY(-50%) translateX(-150px) scaleX(1);
+  }
+  99% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+  100% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+}
+.turtle {
+  width: 60px;
+  position: absolute;
+  top: 60%;
+  animation: swimturtle 11s linear infinite;
+}
+@keyframes swimturtle {
+  0% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+  45% {
+    transform: translateY(-50%) translateX(110px) scaleX(1);
+  }
+  50% {
+    transform: translateY(-50%) translateX(120px) scaleX(-1);
+  }
+  95% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+}
+.shark {
+  width: 100px;
+  position: absolute;
+  top: 78%;
+  animation: sharkswim 5s linear infinite;
+}
+@keyframes sharkswim {
+  0% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+  45% {
+    transform: translateY(-50%) translateX(200px) scaleX(1);
+  }
+  50% {
+    transform: translateY(-50%) translateX(220px) scaleX(-1);
+  }
+  95% {
+    transform: translateY(-50%) translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateY(-50%) translateX(0) scaleX(1);
+  }
+}
